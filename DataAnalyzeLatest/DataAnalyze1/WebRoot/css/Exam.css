@@ -1,0 +1,174 @@
+*{ vertical-align:middle;}
+img{ vertical-align:middle;}
+
+.main{ width:100%; margin-left:3px; float:left;  margin-top:0px; background-color:#daeef3; }
+.main .r_Btm{ width:100%;  float:left; color:#0972ac; font-size:12px; border-left:solid 1px #d3d3d3; padding:10px 0px; }
+.main .r_Btm .TBChoice{margin-left:14px;height:auto; }
+.main .r_Btm .TBChoice td{ height:25px; line-height:25px; border-bottom:#8db2e3 1px solid;}
+.main .r_Btm .TBChoice .listWidth{width:150px; height:22px;line-height:22px; } 
+
+.main .r_Btm1{ width:100%;  float:left; color:#0972ac; font-size:12px;  padding:10px 0px; }
+.main .r_Btm1 .TBChoice{margin-left:14px;height:auto; }
+.main .r_Btm1 .TBChoice td{ height:25px; line-height:25px;}
+.main .r_Btm1 .TBChoice .listWidth{width:150px; height:22px;line-height:22px; }
+
+.main .r_Bt{ width:100%;  float:right; color:#0972ac; font-size:12px; border-left:solid 1px #d3d3d3; padding:10px 0px; }
+.main .r_Bt .TBChoice{margin-left:14px;height:auto; }
+.main .r_Bt .TBChoice td{ height:25px; line-height:25px; }
+
+.r_title{ width:100%; min-width:800px; color:#0972ac; background:url(../images/r_title_bg2.jpg) repeat-x; height:27px; line-height:27px;}
+.r_title h3{ background:url(../images/r_title_bg.jpg) no-repeat; height:27px; text-align:left; padding-left:15px; float:left; font-size:12px; font-weight:normal; display:block;}
+.r_title h3 span{margin-right:5px; margin-left:5px; float:left; display:inline;}
+.r_title h3 span a{ color:#0972ac;}
+
+.r_search{ width:100%; min-width:800px; color:#0972ac;  height:27px; line-height:27px; border:0px; margin-top:10px;}
+.r_search h3{ background:url(../images/search_bg.jpg) no-repeat; width:85px; height:25px; text-align:center; margin:0px 15px 0 15px; float:left;}
+
+/*examapplication*/
+
+.TBList{ margin-left:14px;*margin-left:7px; margin-top:10px; min-width:750px; height:auto; float:left; border-collapse:collapse;}
+.TBList th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:center;}
+.TBList td{ background:#FFF; border:#efefef 1px solid;height:25px;color:#0972ac; font-size:12px; text-align:center;}
+.TBList tr .Learning{text-align:top;}
+.TBList tr .Learning a.AA{ background:url(../images/anniu02.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.TBList tr .Learning a.AA:hover{ background:url(../images/anniu01.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+.TBlist .ListClss{  width:146px; height:20px; line-height:20px;}
+.Elective{text-align:center;}
+.anniu_sq{ background:url(../images/anniu11.jpg) no-repeat; width:59px; height:24px; line-height:24px; margin-top:0px; vertical-align:middle; border:none; cursor:pointer;}
+.t_text{margin-left:5px; height:18px; margin-top:2px; background-color:transparent; border:none;color:#4e4e4e;}
+
+/*报名*/
+.p_submit .entry{ background:url(../images/anniu18.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+/*重置*/
+.p_submit .reset{ background:url(../images/anniu19.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+/*确认*/
+.p_submit .sure1{ background:url(../images/sure1.jpg) no-repeat; width:70px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+/*取消*/
+.p_submit .cancle{ background:url(../images/btn_cancle_2.jpg) no-repeat; width:70px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+   
+ /*返回（字体较细）*/
+.p_submit .back{ background:url(../images/back.jpg) no-repeat; width:70px; 
+
+height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; 
+
+cursor:pointer;}
+/*确定*/
+.p_submit .sure2{ background:url(../images/sure.jpg) no-repeat; width:70px; 
+
+height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; 
+
+cursor:pointer;}  
+   
+   
+           
+.Elective{text-align:center;}
+.anniu_sq{ background:url(../images/anniu11.jpg) no-repeat; width:59px; height:24px; line-height:24px; margin-top:0px; vertical-align:middle; border:none; cursor:pointer;}
+
+.Flip{ color:#107ab6; float:left; min-width:680px; _width:95%; margin-top:15px; font-size:14px; margin-bottom:10px;_margin-bottom:0px;}
+.Flip a{ color:#107ab6; line-height:24px; }
+.Flip a:hover{ color:#107ab6; text-decoration:underline;}
+.Flip .ll{ float:left; display:block; margin-left:20px; border:none;}
+.Flip .RR{color:#107ab4; float:left; margin-left:30px; }
+
+/*entryform*/
+.TB{ margin-top:10px;  margin-left:14px;*margin-left:7px; min-width:680px;height:325px; float:left; border-collapse:collapse;}
+.TB th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:
+left; }
+.TB td{ text-align:left; padding-left:15px;background:#FFF; border:#efefef 1px solid;height:25px;color:#7a7979; font-size:12px; text-align:left;font-weight:normal; }
+
+.TB .shur{width:146px; height:16px;line-height:16px; } 
+.shur1{width:400px; height:16px; margin-left:20px; line-height:16px; } 
+
+ /*查看试卷*/
+.TBcheck{ margin-top:10px;  margin-left:14px;*margin-left:7px; min-width:680px;height:auto; float:left; border-collapse:collapse;}
+.TBcheck th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:
+left; }     
+.TBcheck td{ text-align:left; padding-left:15px;background:#FFF; border:#efefef 1px solid;height:25px;color:#7a7979; font-size:12px; text-align:left;font-weight:normal; }
+
+/*modifypassword*/
+.TBpass{ margin-top:10px;  text-align:center;margin-left:14px;*margin-left:7px; 
+
+min-width:680px;height:150px;  border-collapse:collapse;}
+
+.TBpass th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-
+
+top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:center; }
+.TBpass td{
+	text-align:left;
+	padding-left:15px;
+	background:#FFF;
+	border:#efefef 1px solid;
+	height:25px;
+	color:#7a7979;
+	font-size:12px;
+	text-align:left;
+	font-weight:normal;
+}
+
+.TBpass .shur{width:250px; height:16px;line-height:16px; } 
+
+
+
+
+
+.p_area1{ width:100%; height:auto;border:0px; margin-top:10px;}
+.p_area1 h3{ width:95%; height:25px;color:#0972ac; text-align:left; margin:0px 15px 0 15px; float:left; font-weight:normal;}
+.p_area1 h4{ width:95%; height:25px;color:#0972ac; text-align:left; margin:0px 15px 0 15px; float:left;  }
+
+.t_text{margin-left:5px; height:18px; margin-top:2px; background-color:transparent; border:none;color:#4e4e4e;}
+
+.p_submit .entry{ background:url(../images/anniu18.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+/*报名*/
+.p_submit .reset{ background:url(../images/anniu19.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+/*重置*/
+.p_submit .submit{ background:url(../images/anniu06.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+/*提交*/
+.bj{ background:url(../images/btn_bianji.jpg) no-repeat; width:70px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+/*编辑*/
+
+/*examoninternet*/
+.note{width:90%; margin-left:20px; height:100px; margin-top:10px;}
+.note1{width:50%; margin-left:0px; height:100px; margin-top:10px;}
+.p_submit{width:100%; text-align:center; margin:10px 0 60px 0;}
+.p_submit .save{ background:url(../images/anniu05.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0 5px 0 0; vertical-align:middle; cursor:pointer;}
+.p_submit .begin{ background:url(../images/anniu20.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+
+
+.p_submit .cancle{ background:url(../images/cancle_2.jpg) no-repeat; width:72px; height:24px; line-height:24px; border:none; margin:0 5px 0 0; vertical-align:middle; cursor:pointer;}
+
+.p_submit .handin{ background:url(../images/anniu21.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.p_submit h3{ width:95%; height:25px;color:#0972ac; text-align:left; margin:0px 15px 0 15px; float:left; }
+.text{margin-left:5px; height:18px; margin-top:2px; background-color:transparent; border:none;color:#4e4e4e;
+border-bottom-style:solid; border-bottom-color:#8db2e3; border-bottom-width:1px; }
+.shur{width:auto; height:16px;line-height:16px;}
+/*testoninternet*/
+.p_submit .checkanswer{ background:url(../images/anniu22.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.p_submit .begintest{ background:url(../images/anniu23.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.p_submit .endtest{ background:url(../images/anniu24.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.p_submit .return{ background:url(../images/anniu17.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+.p_submit .check{ background:url(../images/anniu07.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+.handin{ background:url(../images/anniu21.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.return{ background:url(../images/anniu17.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.normal{ background:url(../images/anniu15.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.temporary{ background:url(../images/anniu16.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.unexam{ background:url(../images/anniu25.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+.graycheck{ background:url(../images/anniu26.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+.endcheck{ background:url(../images/anniu28.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+.pratest{ background:url(../images/anniu29.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:5px; vertical-align:middle; cursor:pointer;}
+/*set*/
+.listclass{width:150px; height:22px;line-height:22px;}
+
+
+.Qquestion{ margin-top:10px;  margin-left:14px;*margin-left:7px; min-width:680px;height:auto; float:left; border-collapse:collapse;}
+.Qquestion th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:normal; font-size:12px; text-align:left ; padding-left:8px;}
+.Qquestion td{ text-align:left; padding-left:15px;background:#FFF;height:25px; color:#0972ac;font-size:12px; font-weight:normal; }
+
+/*作业列表中的超链接（查看，做作业）*/
+
+.Practice{text-align:center;}
+.Practice a.Show{ background:url(../images/anniu07.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.Practice a.Show:hover{ background:url(../images/anniu08.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+.Practice a.Submit{ background:url(../images/anniu09.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.Practice a.Submit:hover{ background:url(../images/anniu10.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+.Practice a.Exercise{ background:url(../images/anniu13.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.Practice a.Exercise:hover{ background:url(../images/anniu14.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }

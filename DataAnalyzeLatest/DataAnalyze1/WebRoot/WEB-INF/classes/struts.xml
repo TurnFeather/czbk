@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "struts-2.0.dtd" >
+
+<struts>
+	<include file="struts-default.xml" />
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.multipart.maxSize" value="214748364800" />
+	<!--  
+	<package name="struts" extends="struts-default">
+		<action name="DataAnalyzeAction" class="cn.edu.ncist.dataAnalyze.realtime.web.DataAnalyzeAction">
+			<result name="data">/data.jsp</result>
+		</action>
+	</package>
+	-->
+	<package name="struts" extends="json-default">
+		<action name="DataAnalyzeAction" class="cn.edu.ncist.dataAnalyze.realtime.web.DataAnalyzeAction">
+			<result name="data" type="json"></result>
+		</action>
+		<action name="SerRecordByIdAction" class="cn.edu.ncist.dataAnalyze.realtime.web.SerRecordByIdAction">
+			<result name="recordById" type="json"></result>
+		</action>
+		<action name="DataAccidentAction" class="cn.edu.ncist.dataAnalyze.realtime.web.AcciAnalyzeAction">
+			
+		<result name="success" type="json"> <param name="root">result</param></result><!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                
+		</action>
+		<!--总事故按省份统计  -->
+		<action name="AllAcciProAction" class="cn.edu.ncist.dataAnalyze.realtime.web.AllAcciProAnalyzeAction">
+			
+		<result name="success" type="json"> <param name="root">result</param></result><!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                
+		</action>
+		
+		<action name="AllAcciPriAction" class="cn.edu.ncist.dataAnalyze.realtime.web.AllAcdPridictionAction">
+			
+		<result name="success" type="json"> <param name="root">result</param></result><!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                
+		</action>
+		
+		<action name="AllAcciYearAction" class="cn.edu.ncist.dataAnalyze.realtime.web.AllAcciYearAnalyzeAction">
+			
+		<result name="success" type="json"> <param name="root">result</param></result><!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                
+		</action>
+		<action name="AllAcciDetailAction" class="cn.edu.ncist.dataAnalyze.realtime.web.AllAcdDetailAction">
+			
+		<result name="success" >/all_acd_detail.jsp</result>
+		<result name="fail">/fail.jsp</result>
+                
+		</action>
+		<!--事故预测  -->
+		<action name="AcdPreAction" class="cn.edu.ncist.dataAnalyze.realtime.web.AcciPridictionAction">
+			
+		<result name="success" type="json"> <param name="root">result</param>
+		</result><!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                
+		</action>
+		<action name="Casualty" class="cn.edu.ncist.dataAnalyze.realtime.web.AcdCasualtyAction">
+			
+		<result name="success" type="json"> <param name="root">result</param></result><!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                
+		</action>
+		<action name="FinLoss" class="cn.edu.ncist.dataAnalyze.realtime.web.AcdFinLossAction">
+			
+		<result name="success" type="json"> <param name="root">result</param></result><!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                
+		</action>
+		<action name="ComAnalys" class="cn.edu.ncist.dataAnalyze.realtime.web.ComAnalyzeAction">
+			
+		<result name="success">zhfx.jsp</result>
+                
+		</action>
+		
+		 <action name="ajaxAction" class="com.sys.ajax.JsonAction" method="execute">
+          <result name="SUCCESS" type="json"/>
+     	</action>
+     	
+		<action name="getInfo" method="execute" class="cn.edu.ncist.dataAnalyze.realtime.web.GetInfoAction">
+            <!-- 返回json类型数据 -->
+            <result type="json">
+                <param name="root">result<!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                </param>
+            </result>
+        </action>
+        <action name="getAcdInfo" method="execute" class="cn.edu.ncist.dataAnalyze.realtime.web.GetNameAction">
+            <!-- 返回json类型数据 -->
+            <result type="json">
+                <param name="root">result<!-- result是action中设置的变量名，也是页面需要返回的数据，该变量必须有setter和getter方法 -->
+                </param>
+            </result>
+        </action>
+        <action name="chinaMap" class="cn.edu.ncist.dataAnalyze.realtime.web.MapAction" method="chinaMap">
+			<result name="success">map.jsp</result>
+		</action>
+		
+		<action name="AcciDetail" class="cn.edu.ncist.dataAnalyze.realtime.web.AcciDetailAction">
+			<result name="success" >/acci_detail.jsp</result>
+			<result name="fail">/fail.jsp</result>
+		</action>
+		<action name="DataWeatherAction" class="cn.edu.ncist.dataAnalyze.realtime.web.DataWeatherAction">
+			<result name="Situation" type="json">
+				<param name="root">map</param>
+			</result>
+		</action>
+		<!-- 导致原因分析 -->
+		<action name="EventCountAction" class="cn.edu.ncist.dataAnalyze.realtime.web.EventCountAction">
+			<result name="Count" type="json">
+				<param name="root">map</param>
+			</result>
+		</action>
+		<action name="SerAccidentAction" class="cn.edu.ncist.dataAnalyze.realtime.web.SerAccidentAction">
+			<result name="accidentIndex" type="json">
+				<param name="root">map</param>
+			</result>
+		</action>
+	</package>
+</struts>

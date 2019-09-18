@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hibernate.test.orphan">
+	<class name="cn.edu.ncist.dataAnalyze.realtime.vo.AcciExperienceModel"  table="tbl_acd_experience">
+		<id name="lessonId" column="lessonId" type="string">
+			
+		</id>
+		<property name="acdOrder" column="acdOrder" type="int"></property>
+		<property name="acdId" column="acdId" type="string"></property>
+		<property name="acdLesson" column="acdLesson" type="string"></property>
+		
+		
+	</class>
+</hibernate-mapping>

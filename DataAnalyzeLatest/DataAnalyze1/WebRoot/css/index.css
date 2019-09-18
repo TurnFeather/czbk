@@ -1,0 +1,77 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.main{ width:100%; margin-left:3px; float:left;  margin-top:5px; background-color:#daeef3; border-bottom:solid 1px #daeef3; border-right:solid 1px #daeef3;}
+.main .r_bottom .tt{ color:#107ab6; float:left; line-height:24px; min-width:750px; _width:100%; margin-top:15px; font-size:14px;}
+.main .r_bottom .tt a{ color:#107ab6; line-height:24px; }
+.main .r_bottom .tt a:hover{ color:#107ab6; text-decoration:underline;}
+.main .r_bottom .tt .ll{ float:left; display:block; margin-left:20px;}
+.main .r_bottom .tt .rr{ float:left; margin-left:30px;}
+.kk{ background:url(../images/kk01.jpg) no-repeat; width:43px; height:24px;  color:#107ab6; border:none; line-height:24px; text-align:center; margin:0 2px;  vertical-align:middle;}
+.go{ background:url(../images/anniu03.jpg) no-repeat; width:29px; height:24px; line-height:24px; border:none; margin:0 5px 0 2px; vertical-align:middle;}
+
+.main .r_top{ width:100%; color:#0972ac; background:url(../images/cx_bg.jpg) repeat-x; height:27px; line-height:27px;}
+.main .r_top h3{ background:url(../images/cx.jpg) no-repeat; width:92px; height:27px; text-align:center; margin-right:15px; float:left;}
+
+
+.main .r_bottom{ width:100%; min-width:1004px; float:left;  padding-bottom:30px;  border-left:solid 1px #d3d3d3; }
+.main .r_bottom .hang{ min-width:1004px; width:100%}
+.main .r_bottom .bg{ float:left; width:370px; margin:30px 0 0 14px; display:inline;}
+
+.main .r_bottom .bg a.aa{ background:url(../images/anniu01.jpg) no-repeat; height:24px; width:59px; margin:0 10px; display:block; float:left;}
+.main .r_bottom .bg a.aa:hover{ background:url(../images/anniu02.jpg) no-repeat; height:24px; width:59px; }
+
+.main .r_bottom table{ background-color:#FFF; border-top:solid 1px #8db2e3; font-size:12px;   border-collapse:collapse;}
+.main .r_bottom table th{ text-align:left; padding:2px 5px;  border:solid 1px #d0d0d0; border-collapse:collapse; background:#e0f2f6; color:#0972ac; font-size:14px; font-weight:normal;}
+.main .r_bottom table .bai{ background-color:#fff; padding:2px; width:138px; height:179px;}
+.main .r_bottom table td{ border:solid 1px #d0d0d0; padding:2px 5px; color:#6e6e6e;   border-collapse:collapse; background-color:#FFF;}
+.main .r_bottom table td span{ color:#bf0000; display:block; float:left;}
+.main .r_bottom table td p{ float:left; width:150px;}
+
+
+.main .xwgg{ width:232px; float:right; margin:20px 20px 20px 0; display:inline;}
+.main .xwgg img{ float:left;}
+.main .xwgg ul{ background:url(../images/xw_bg.jpg) repeat-y; padding:15px;}
+.main .xwgg h3{ color:#005fcc; line-height:40px;}
+.main .xwgg h3 a{ color:#005fcc; text-decoration:underline;}
+.main .xwgg p{ color:#303030;}
+
+
+
+.kuang{ background:url(../images/kuang.jpg) no-repeat; width:129px; height:20px; line-height:20px; padding-left:3px; margin-top:2px; vertical-align:middle; border:none;}
+
+.anniu_cx{ background:url(../images/Add_CXx.jpg) no-repeat; width:69px; height:24px; line-height:20px; margin-top:1px; vertical-align:middle; border:none;}
+.anniu_fh{ background:url(../images/Add_FHh.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:69px; height:24px; display:inline-block;  }
+
+/*回复按钮*/
+.replay{ background:url(../images/reply.jpg) no-repeat; width:69px; height:26px; line-height:20px; margin-top:1px; vertical-align:middle; border:none;}
+
+.anniu_xx{ background:url(../images/anniu01.jpg) no-repeat; width:59px; height:24px; vertical-align:middle; margin-right:60px; border:none}
+
+/*learn-jindu*/
+.anniu_cxx{ background:url(../images/anniu_cx.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:66px; height:20px; display:inline-block; padding-bottom:8px;}
+.anniu_cxx :hover{ background:url(../images/anniu_cx.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:66px; height:20px; display:inline-block; padding-bottom:8px;}
+
+
+.anniu_cxxx{ background:url(../images/Admin_CX.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:66px; height:20px; display:inline-block; padding-bottom:8px;}
+.anniu_cxxx :hover{ background:url(../images/Admin_CXx.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:66px; height:20px; display:inline-block; padding-bottom:8px;}
+
+
+.t_text{margin-left:5px; height:18px; margin-top:2px; background-color:transparent; border:none;color:#4e4e4e;
+border-bottom-style:solid; border-bottom-color:#000000; border-bottom-width:1px; }
+
+/*返回按钮1*/
+.anniu_FH{ background:url(../images/Add_FHh.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:69px; height:24px; display:inline-block; padding-bottom:8px; }
+.anniu_FH :hover{ background:url(../images/AddFH.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:69px; height:24px; display:inline-block; padding-bottom:8px;}
+/*返回按钮2*/
+.downback{ background:url(../images/back.jpg) no-repeat; line-height:18px; margin-top:1px; vertical-align:middle; border:none;width:69px; height:24px; display:inline-block; padding-bottom:8px; }
+/*选课*/
+.courselect{background:url(../images/courselect.jpg) no-repeat; width:69px; height:28px; border:none; margin-left:20px;margin-top:6px;vertical-align:middle; cursor:pointer;}
+.listclass{width:100px;height:20px;}
+
+/*删除按钮*/
+.anniu_deleq{ background:url(../images/Admin_DDd.gif) no-repeat; width:69px; height:24px; line-height:20px; margin-top:1px; vertical-align:middle; border:none;}
+
+
+
+

@@ -1,0 +1,19 @@
+@charset "utf-8";
+*{ font-family:"宋体"; list-style-type:none; vertical-align:middle; font-size:12px; margin:0 auto}
+.Degl { width: 425px; height: 300px; margin:30px auto 0; _margin-top:15px; background:url(../images/LOGIN.jpg) no-repeat center;}
+img{ vertical-align:middle;}
+.contn{ width:250px; height:140px;  padding-top:115px; margin:0px auto 40px; color:#FFF; font-size:12px; } 
+
+
+.contn  li{ width:240px; line-height:23px; height:30px; float:left; }
+.contn  li span{ font-size:12px; width:45px; display:block; float:left; height:26px; line-height:26px; }
+.contn  li a{ font-size:12px; width:50px; float:inherit; height:21px; line-height:26px; }
+
+
+
+#User{ height:21px; line-height:21px;  border:#0a8ccc 1px solid;vertical-align:middle; float:left; width:140px;}
+#Verif{ height:21px; line-height:21px;border:#0a8ccc 1px solid;vertical-align:middle; float:left; width:80px; margin-right:5px;_margin-right:2px;}
+#login{ margin-left:48px; background:url(../images/LOGINa.jpg) no-repeat top left; width:70px; height:28px; border:none;}
+#reset{ background:url(../images/LOGINb.jpg) no-repeat top left; width:70px; height:28px; border:none;}
+.copyright{ height:25px; line-height:25px;text-align:center; color:#a5a5a5; width:425px; margin:0 auto; margin-top:5px ; }
+.register{}

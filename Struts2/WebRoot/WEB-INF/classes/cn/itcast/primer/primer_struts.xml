@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="primer" namespace="/primer" extends="struts-default">
+		<!-- 默认要执行的Action，当找不到请求的action名时 
+			* name ： 指定默认要执行action的名称
+		-->
+		<default-action-ref name="helloWorldAction"></default-action-ref>
+		<!-- 
+			action:
+				*name:对应页面中请求链接的后半部分
+				*class：对应要执行路径的后半部分
+		 -->
+		<action name="helloWorldAction" class="cn.itcast.primer.HelloWorldAction">
+			<!-- 
+				result:结果类型
+					*name:对应的执行的类的方法的返回值
+						System.out.println("Hello World Action ****** excute");
+						return "success";
+					*后半部分的文本内容：要转向到的页面
+			 -->
+			<result name="success">/success.jsp</result>
+		</action>
+		
+		<!-- 
+			没有为action指定class
+				*在struts2框架底层的struts-default.xml文件中，配置了默认执行的类
+					com.opensymphony.xwork2.ActionSupport
+					public String execute() throws Exception {
+       					 return SUCCESS;
+    				}
+    			* 实际上，默认执行的是底层提供的ActionSupport类的execute()方法
+    			* result结果类型，默认是根据struts2框架底层提供的ActionSupport类的execute（）方法返回值，可进行跳转
+		 -->
+		
+ 		<action name="ActionNoClass">
+			<!-- 
+				result:结果类型
+					*name:对应的执行的类的方法的返回值
+						System.out.println("Hello World Action ****** excute");
+						return "success";
+					*后半部分的文本内容：要转向到的页面
+			 -->
+			<result name="success">/success.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hibernate.test.orphan">
+	<class name="cn.edu.ncist.dataAnalyze.realtime.vo.AllDetailModel"  table="all_detail">
+		
+	<id name="id" column="id" type="int">	
+		</id>
+	<property name="province" column="province" type="string"></property>
+	<property name="year" column="year" type="string"></property>
+	<property name="acd_num" column="acd_num" type="string"></property>
+	<property name="die_num" column="die_num" type="string"></property>
+	
+	
+	</class>
+</hibernate-mapping>

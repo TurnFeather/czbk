@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="StrutsMoni"
+  id="myeclipse.1500273553180"
+  context-root="/StrutsMoni"
+  j2ee-spec="5.0"
+  archive="StrutsMoni.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

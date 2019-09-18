@@ -1,0 +1,38 @@
+#created on: 2014-5-7
+package cn.edu.ncist.dataAnalyze.rules
+#package cn.edu.ncist.dataAnalyze.realtime.web
+
+#list any import classes here.
+import cn.edu.ncist.dataAnalyze.realtime.vo.RuleModel;
+import cn.edu.ncist.dataAnalyze.realtime.web.DataAnalyzeAction.DataAfterRule;
+
+#declare any global variables here
+no-loop true
+
+rule "Your First Rule"
+
+	when
+		#conditions
+		r : RuleModel( temperature >= 40)
+	then 
+		#actions
+		DataAfterRule.setMsgSB("<font color=\"red\">"+r.getRecordTime()+" 危险！温度达到："+r.getTemperature() +"</font>"+"<br />");
+		#.setDangerMsg("<font color=\"red\">"+r.getRecordTime()+"  危险！温度达到："+r.getTemperature() +"</font>"+"<br />");
+		DataAfterRule.setStatus(true);
+        #.setDangerMsg("<font color=\"green\">"+r.getRecordTime()+"  正常！温度为："+r.getTemperature() +"</font>"+"<br />");
+		update(r);
+end
+rule "Your Second Rule"
+
+	when
+		#conditions
+		r : RuleModel( temperature < 40)
+	then 
+		#actions
+	    DataAfterRule.setMsgSB("");
+	  
+		DataAfterRule.setStatus(true);
+		
+		update(r);
+end
+

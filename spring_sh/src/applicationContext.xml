@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+     <!-- 
+     	beans
+     		把一个类放入到spring容器中，该类就是一个bean
+      -->
+      <!-- 
+      	id	唯一标识符 用于从spring容器中获取对象
+      	class 标识类的全名 为创建对象给出完整路径
+       -->
+	<import resource="cn/itcast/spring/sh/ioc/alias/applicationContext-alias.xml"/>
+	<import resource="cn/itcast/spring/sh/ioc/createobject/applicationContext-createobject.xml"/>
+	<import resource="cn/itcast/spring/sh/createobject/method/applicationContext-createobject-method.xml"/>
+	<import resource="cn/itcast/spring/sh/initdestroy/applicationContext-initdestroy.xml"/>
+	<import resource="cn/itcast/spring/sh/di/set/applicationContext-di-set.xml"/>
+	<import resource="cn/itcast/spring/sh/di/constructor/applicationContext-di-constructor.xml"/>
+	<import resource="cn/itcast/spring/sh/mvc/applicationContext-mvc.xml"/>
+	<import resource="cn/itcast/spring/annotation/di/applicationContext-di-annotation.xml"/>
+	<import resource="cn/itcast/annotation/scan/applicationContext-scan-annotation.xml"/>
+</beans>

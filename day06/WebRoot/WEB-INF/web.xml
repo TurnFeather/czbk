@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <context-param>
+  	<param-name>encoding</param-name>
+  	<param-value>UTF-8</param-value>
+  </context-param>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo1</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServeltDeml2</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServeltDeml2</servlet-class>
+    <init-param>
+    	<param-name>aaa</param-name>
+    	<param-value>bbb</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>xxx</param-name>
+    	<param-value>yyy</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletDemo3</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServletDemo4</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo5</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo6</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo7</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo1</servlet-name>
+    <servlet-class>cn.itcast.response.ResponseDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <servlet-class>cn.itcast.response.ResponseDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo3</servlet-name>
+    <servlet-class>cn.itcast.response.ResponseDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo4</servlet-name>
+    <servlet-class>cn.itcast.response.ResponseDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo5</servlet-name>
+    <servlet-class>cn.itcast.response.ResponseDemo5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo6</servlet-name>
+    <servlet-class>cn.itcast.response.ResponseDemo6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo7</servlet-name>
+    <servlet-class>cn.itcast.response.ResponseDemo7</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.itheima.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestServlet1</servlet-name>
+    <servlet-class>cn.itcast.request.RequestServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestServlet2</servlet-name>
+    <servlet-class>cn.itcast.request.RequestServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestServlet3</servlet-name>
+    <servlet-class>cn.itcast.request.RequestServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AServlet</servlet-name>
+    <servlet-class>cn.itcast.request.AServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BServlet</servlet-name>
+    <servlet-class>cn.itcast.request.BServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo1</servlet-name>
+    <servlet-class>cn.itcast.cookie.app1.CookieDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo2</servlet-name>
+    <servlet-class>cn.itcast.cookie.app1.CookieDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>cn.itcast.cookie.app1.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo3</servlet-name>
+    <servlet-class>cn.itcast.cookie.app2.CookieDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieDemo4</servlet-name>
+    <servlet-class>cn.itcast.cookie.app2.CookieDemo4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowAllBoolsServlet</servlet-name>
+    <servlet-class>cn.itcast.cookie.app3.ShowAllBoolsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowDetailServlet</servlet-name>
+    <servlet-class>cn.itcast.cookie.app3.ShowDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SessionDemo1</servlet-name>
+    <servlet-class>cn.itcast.session.SessionDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SessionDemo2</servlet-name>
+    <servlet-class>cn.itcast.session.SessionDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowProductServlet</servlet-name>
+    <servlet-class>cn.itcast.session.app1.ShowProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>cn.itcast.session.app1.BuyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowCartServlet</servlet-name>
+    <servlet-class>cn.itcast.session.app1.ShowCartServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ServletDemo1</servlet-name>
+    <url-pattern>/servlet/ServletDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServeltDeml2</servlet-name>
+    <url-pattern>/servlet/ServeltDeml2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo3</servlet-name>
+    <url-pattern>/servlet/ServletDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo4</servlet-name>
+    <url-pattern>/servlet/ServletDemo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo5</servlet-name>
+    <url-pattern>/servlet/ServletDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo6</servlet-name>
+    <url-pattern>/servlet/ServletDemo6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo7</servlet-name>
+    <url-pattern>/servlet/ServletDemo7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo1</servlet-name>
+    <url-pattern>/servlet/ResponseDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo2</servlet-name>
+    <url-pattern>/servlet/ResponseDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo3</servlet-name>
+    <url-pattern>/servlet/ResponseDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo4</servlet-name>
+    <url-pattern>/servlet/ResponseDemo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo5</servlet-name>
+    <url-pattern>/servlet/ResponseDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo6</servlet-name>
+    <url-pattern>/servlet/ResponseDemo6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo7</servlet-name>
+    <url-pattern>/servlet/ResponseDemo7</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/servlet/RegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet1</servlet-name>
+    <url-pattern>/servlet/RequestServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet2</servlet-name>
+    <url-pattern>/servlet/RequestServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet3</servlet-name>
+    <url-pattern>/servlet/RequestServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AServlet</servlet-name>
+    <url-pattern>/servlet/AServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BServlet</servlet-name>
+    <url-pattern>/servlet/BServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo1</servlet-name>
+    <url-pattern>/servlet/CookieDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo2</servlet-name>
+    <url-pattern>/aaa/CookieDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/servlet/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo3</servlet-name>
+    <url-pattern>/servlet/CookieDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieDemo4</servlet-name>
+    <url-pattern>/servlet/CookieDemo4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAllBoolsServlet</servlet-name>
+    <url-pattern>/servlet/ShowAllBoolsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowDetailServlet</servlet-name>
+    <url-pattern>/servlet/ShowDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo1</servlet-name>
+    <url-pattern>/servlet/SessionDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SessionDemo2</servlet-name>
+    <url-pattern>/servlet/SessionDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowProductServlet</servlet-name>
+    <url-pattern>/servlet/ShowProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/servlet/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCartServlet</servlet-name>
+    <url-pattern>/servlet/ShowCartServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>default.html</welcome-file>
+  </welcome-file-list>
+</web-app>

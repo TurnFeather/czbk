@@ -1,0 +1,74 @@
+@charset "gb2312";
+*{ vertical-align:middle;}
+img{ vertical-align:middle;}
+.main{ width:100%; margin-left:3px; float:left; height:auto;margin-top:0px; background-color:#daeef3;}
+.main .r_Top .Bg01{ float:left; background:url(../images/Admin_03.gif) no-repeat; width:15px; height:26px;}
+.main .r_Top{ width:100%; color:#0972ac; background:url(../images/Admin_05.gif) repeat-x; height:27px; line-height:27px;}
+.main .r_Top h2{ font-size:14px; color:#0972ac; font-weight:normal; margin-right:15px; float:left;}
+.main .r_Top h2 a{color:#0972ac; text-decoration:underline;}
+
+.tishi  h2{font-size:14px; color:#0972ac; font-weight:normal; margin-right:15px; float:left; margin-left:15px; margin-top:15px}
+
+.main .r_Btm{ width:100%; min-width:980px; float:left; color:#0972ac; font-size:12px; border-left:solid 1px #d3d3d3; padding:10px 0px; }
+.main .r_Btm .TBChoice{margin-left:14px; min-width:680px; }
+.main .r_Btm .TBChoice td{ height:25px; line-height:25px;}
+.main .r_Btm .TBChoice a.AA{ background:url(../images/Admin_AAa.gif) no-repeat; width:89px; height:24px; display:inline-block; padding-bottom:8px; margin-left:5px;}
+.main .r_Btm .TBChoice a.AA:hover{ background:url(../images/Admin_AA.gif) no-repeat; width:89px; height:24px;margin-left:5px;}
+.main .r_Btm .TBChoice a.BB{ background:url(../images/Admin_BBb.gif) no-repeat; width:61px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.BB:hover{ background:url(../images/Admin_BB.gif) no-repeat; width:61px; height:24px;margin-left:5px;}
+.main .r_Btm .TBChoice a.CC{ background:url(../images/Admin_CCc.gif) no-repeat; width:61px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.CC:hover{ background:url(../images/Admin_CC.gif) no-repeat; width:61px; height:24px;margin-left:5px;}
+.main .r_Btm .TBChoice a.DD{ background:url(../images/Admin_DDd.gif) no-repeat; width:61px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.DD:hover{ background:url(../images/Admin_DD.gif) no-repeat; width:61px; height:24px;margin-left:5px;}
+.main .r_Btm .TBChoice a.EE{ background:url(../images/Admin_EEe.gif) no-repeat; width:83px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.EE:hover{ background:url(../images/Admin_EE.gif) no-repeat; width:83px; height:24px;margin-left:5px;}
+.main .r_Btm .TBChoice a.FF{ background:url(../images/Admin_FFf.jpg) no-repeat; width:69px; height:52px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.FF:hover{ background:url(../images/Admin_FF.jpg) no-repeat; width:69px; height:52px;margin-left:5px;}
+
+.main .r_Btm .TBChoice a.BC{ background:url(../images/Add_FFf.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;margin-left:5px;}
+.main .r_Btm .TBChoice a.BC:hover{ background:url(../images/Add_FF.jpg) no-repeat; width:69px; height:24px;margin-left:0px;}
+
+.main .r_Btm .TBChoice .listWidth { width:120px; height:22px;_height:24px;line-height:22px;}
+.main .r_Btm .TBChoice .TextWidth { width:115px; height:16px; line-height:22px;}
+
+.main .r_Btm .TBChoice a.SY{ background:url(../images/btn_up_2.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.SY:hover{ background:url(../images/btn_up_1.jpg) no-repeat; width:69px; height:24px;margin-left:5px;}
+/*上移*/
+
+.main .r_Btm .TBChoice a.XY{ background:url(../images/btn_down_2.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.XY:hover{ background:url(../images/btn_down_1.jpg) no-repeat; width:69px; height:24px;margin-left:5px;}
+/*下移*/
+
+.main .r_Btm .TBChoice a.XZKJ{ background:url(../images/btn_addppt_2.jpg) no-repeat; width:89px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.XZKJ:hover{ background:url(../images/btn_addppt_1.jpg) no-repeat; width:89px; height:24px;margin-left:5px;}
+/*新增课件*/
+
+.main .r_Btm .TBChoice a.SCKJ{ background:url(../images/btn_sckj_2.jpg) no-repeat; width:89px; height:24px; display:inline-block;padding-bottom:8px;margin-left:5px;}
+.main .r_Btm .TBChoice a.SCKJ:hover{ background:url(../images/btn_sckj_1.jpg) no-repeat; width:89px; height:24px;margin-left:5px;}
+/*删除课件*/
+
+#out{WIDTH:95%; min-width:680px; float:left; OVERFLOW-X:scroll; OVERFLOW-Y:scroll; SCROLLBAR-ARROW-COLOR:#48b4fc;SCROLLBAR-BASE-COLOR:#D6E9FC;}
+#out1{WIDTH:95%; min-width:680px; float:left; OVERFLOW-X:scroll; OVERFLOW-Y:scroll; SCROLLBAR-ARROW-COLOR:#48b4fc;SCROLLBAR-BASE-COLOR:#D6E9FC;}
+.TB{ margin-left:14px;*margin-left:7px; min-width:680px;height:auto; float:left; border-collapse:collapse;}
+.TB th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:center;}
+#thnone{ text-align:left; padding-left:15px;}
+.TB td{ background:#FFF; border:#efefef 1px solid;height:25px;color:#7a7979; font-size:12px; text-align:center;}
+#tdnone{ text-align:left; padding-left:15px; border:none; border-bottom:#efefef 1px solid;}
+ 
+.Flip{ color:#107ab6; float:left; min-width:680px;width:95%; _width:95%; margin-top:15px; font-size:14px; margin-bottom:10px;_margin-bottom:0px;}
+.Flip a{ color:#107ab6; line-height:24px; }
+.Flip a:hover{ color:#107ab6; text-decoration:underline;}
+.Flip .ll{ float:left; display:block; margin-left:20px; border:none;}
+.Flip .RR{color:#107ab4; float:right;}
+
+.kk{ background:url(../images/kk01.jpg) no-repeat; width:43px; height:24px;  color:#107ab6; border:none; line-height:24px; text-align:center; margin:0 2px;  vertical-align:middle;}
+.go{ background:url(../images/anniu03.jpg) no-repeat; width:29px; height:24px; line-height:24px; border:none; margin:0 5px 0 2px; vertical-align:middle;}
+
+/*14-1-1*/
+.TC{ margin-left:0px;margin-top:0px; width:800px;height:300px; border:1px; overflow:visible; OVERFLOW-X:scroll; OVERFLOW-Y:scroll; SCROLLBAR-ARROW-COLOR:#48b4fc;SCROLLBAR-BASE-COLOR:#D6E9FC;}
+
+#outcomment{WIDTH:95%; min-width:680px; float:left;background:#daeef3}
+#btncomment{ background-color:#daeef3; width:60%}
+
+/*14-1-2*/
+.print_area{width:800px; height:1200px;margin-left:0px;margin-top:0px;  overflow:visible;}

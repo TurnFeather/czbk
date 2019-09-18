@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hibernate.test.orphan">
+	<class name="cn.edu.ncist.dataAnalyze.realtime.vo.AccidentModel"  table="TBL_ACCIDENT">
+		<id name="acdId" column="acdId" type="string">	
+		</id>
+		<property name="acdName" column="acdName" type="string"></property>
+		<property name="acdProvince" column="acdProvince" type="string"></property>
+		<property name="acdCity" column="acdCity" type="string"></property>
+		<property name="acdLocale" column="acdLocale" type="string"></property>
+		<property name="acdYear" column="acdYear" type="string"></property>
+		<property name="acdMonth" column="acdMonth" type="string"></property>
+		<property name="Temperature" column="Temperature" type="string"></property>
+		<property name="Humidity" column="Humidity" type="string"></property>
+		<property name="WindSpeed" column="WindSpeed" type="string"></property>
+		<property name="AirQuality" column="AirQuality" type="string"></property>
+		<property name="acdSituation" column="acdSituation" type="string"></property>
+		<property name="acdDateTime" column="acdDateTime" type="string"></property>
+		<property name="acdCompany" column="acdCompany" type="string"></property>
+		<property name="acdCompanyOverview" column="acdCompanyOverview" type="string"></property>
+		<property name="acdOverview" column="acdOverview" type="string"></property>
+		<property name="minorInjuryNum" column="minorInjuryNum" type="int"></property>
+		<property name="badlyInjuryNum" column="badlyInjuryNum" type="int"></property>
+		<property name="deathNum" column="deathNum" type="int"></property>
+		<property name="directEconomicLoss" column="directEconomicLoss" type="float"></property>
+		<property name="acdGrade" column="acdGrade" type="string"></property>
+		<property name="acdType" column="acdType" type="string"></property>
+		<property name="acdProperties" column="acdProperties" type="string"></property>
+		<property name="emergencyDisposal" column="emergencyDisposal" type="string"></property>
+		<property name="incidence" column="incidence" type="string"></property>
+		<property name="acdReason" column="acdReason" type="string"></property>
+		<property name="endDate" column="endDate" type="string"></property>
+		<property name="vehicleType" column="vehicleType" type="string"></property>
+		<property name="numberPlate" column="numberPlate" type="string"></property>
+		<property name="weatherCondition" column="weatherCondition" type="string"></property>
+		<property name="driverCondition" column="driverCondition" type="string"></property>
+		<property name="equipmentCondition" column="equipmentCondition" type="string"></property>
+		<property name="causeThingsSituation" column="causeThingsSituation" type="string"></property>
+		<property name="acdKeywords" column="acdKeywords" type="string"></property>
+		<property name="acdDataIndex" column="acdDataIndex" type="string"></property>
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+*{ vertical-align:middle;}
+img{ vertical-align:middle;}
+.main .r_Btm{ width:100%; min-width:980px; float:left;  padding-bottom:15px;  border-left:solid 1px #daeef3; }
+.main .r_Btm h3{ color:#0972ac; font-size:14px; margin:15px 0 0 14px;}
+
+.main .r_Btm span{ font-weight:normal;}
+.TB{ margin-left:14px;*margin-left:7px; min-width:680px;height:auto; float:left; border-collapse:collapse;}
+.TBB{ margin-left:14px;*margin-left:7px; min-width:680px;height:100px; float:left; border-collapse:collapse;}
+.TBB td{ background:#FFF; border:#efefef 1px solid;height:25px;color:#7a7979; font-size:12px; text-align:center;}
+.TBB th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:center;}
+.TB th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:center;}
+#thnone{ text-align:left; padding-left:15px;}
+.TB td{ background:#FFF; border:#efefef 1px solid;height:25px;color:#7a7979; font-size:12px; text-align:center;}
+#tdnone{ text-align:left; padding-left:15px; border:none; border-bottom:#efefef 1px solid;}
+.main .TB tr #tdnone a.AA{ background:url(../images/anniu02.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.main .TB tr #tdnone a.AA:hover{ background:url(../images/anniu01.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+
+.Flip{ color:#107ab6; float:left; min-width:680px; _width:95%; margin-top:15px; font-size:14px; margin-bottom:10px;_margin-bottom:0px;}
+.Flip a{ color:#107ab6; line-height:24px; }
+.Flip a:hover{ color:#107ab6; text-decoration:underline;}
+.Flip .ll{ float:left; display:block; margin-left:20px; border:none;}
+.Flip .RR{color:#107ab4; float:left; margin-left:30px; }
+
+.tech{ margin-bottom:20px;min-width:680px; margin-left:14px;*margin-left:7px; margin-top:10px;height:155px;  border-collapse:collapse;border:#efefef 1px solid;}
+.tech td{ background:#FFF; border:none; color:#0972ac; font-weight:bold; font-size:14px; text-align:left; height:38px; line-height:38px;}
+.tech .Btmline{ border-bottom:#ededed 1px dashed;}
+.tech tr td span{ color:#0972ac; font-weight:normal; font-size:14px; float:none; display:inline;}
+.tech .lineP{ padding-left:10px; background:#f5fbfc; height:30px;}
+.tech .TextLT{ color:#a6a6a6; font-size:12px; font-weight:normal; vertical-align:text-top; padding-top:8px; padding-right:8px; line-height:20px;}
+
+
+.tech .Heilne{ color:#4f4f4f; text-align:center; height:25px; line-height:25px; }
+.tech tr td img{ margin:5px; padding:5px; border:#efefef 1px solid;}

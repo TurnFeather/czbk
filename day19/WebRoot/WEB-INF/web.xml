@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+<!--
+  <filter>
+  	<filter-name>FilterDemo1</filter-name>
+  	<filter-class>cn.itcast.filter.FilterDemo1</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>FilterDemo1</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>FilterDemo2</filter-name>
+  	<filter-class>cn.itcast.filter.FilterDemo2</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>FilterDemo2</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+   -->
+  <filter>
+  	<filter-name>CharacterSetFilter</filter-name>
+  	<filter-class>cn.itcast.filter.example.CharacterSetFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>CharacterSetFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+<!--
+  <filter>
+  	<filter-name>NoCatchFilter</filter-name>
+  	<filter-class>cn.itcast.filter.example.NoCatchFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>NoCatchFilter</filter-name>
+  	<url-pattern>*.jsp</url-pattern>
+  	<url-pattern>/servlet/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>NeedCacheFilter</filter-name>
+  	<filter-class>cn.itcast.filter.example.NeedCacheFilter</filter-class>
+  	<init-param>
+  		<param-name>html</param-name>
+  		<param-value>1</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>js</param-name>
+  		<param-value>2</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>css</param-name>
+  		<param-value>1</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>NeedCacheFilter</filter-name>
+  	<url-pattern>*.html</url-pattern>
+  	<url-pattern>*.js</url-pattern>
+  	<url-pattern>*.css</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>autologin</filter-name>
+  	<filter-class>cn.itcast.filter.autologin.AutoLoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>autologin</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <filter>
+  	<filter-name>FilterDemo3</filter-name>
+  	<filter-class>cn.itcast.filter.FilterDemo3</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>FilterDemo3</filter-name>
+  	<url-pattern>/*</url-pattern>
+  	<dispatcher>REQUEST</dispatcher>
+  	<dispatcher>FORWARD</dispatcher>
+  	<dispatcher>INCLUDE</dispatcher>
+  	<dispatcher>ERROR</dispatcher>
+  </filter-mapping>
+-->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo1</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ServletDemo1</servlet-name>
+    <url-pattern>/servlet/ServletDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDemo2</servlet-name>
+    <servlet-class>cn.itcast.servlet.ServletDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.itcast.filter.autologin.LoginServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>ServletDemo2</servlet-name>
+    <url-pattern>/servlet/ServletDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <error-page>
+  	<exception-type>java.lang.Exception</exception-type>
+  	<location>/configdemo/error.jsp</location>
+  </error-page>
+</web-app>

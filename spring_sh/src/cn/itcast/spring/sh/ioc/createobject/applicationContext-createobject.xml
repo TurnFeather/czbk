@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+     <!-- 
+     	beans
+     		把一个类放入到spring容器中，该类就是一个bean
+      -->
+      <!-- 
+      	id	唯一标识符 用于从spring容器中获取对象
+      	class 标识类的全名 为创建对象给出完整路径
+       -->
+	<bean id="helloWorld" class="cn.itcast.spring.sh.ioc.createobject.HelloWorld"></bean>
+</beans>

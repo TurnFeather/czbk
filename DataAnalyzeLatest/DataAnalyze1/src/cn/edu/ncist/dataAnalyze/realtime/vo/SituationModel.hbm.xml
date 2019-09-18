@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hibernate.test.orphan">
+
+<!-- 建立到表tbl_weather的映射 -->
+	<class name="cn.edu.ncist.dataAnalyze.realtime.vo.SituationModel"  table="tbl_weather">
+		<id name="id" column="id" type="int">
+			<generator class="increment"></generator>
+		</id>
+		<property name="Year" column="Year" type="int"></property>
+		<property name="Month" column="Month" type="int"></property>
+		<property name="Day" column="Day" type="int"></property>
+		<property name="Hour" column="Hour" type="int"></property>
+		<property name="Temperature" column="Temperature" type="double"></property>
+		<property name="Humidity" column="Humidity" type="double"></property>
+		<property name="WindSpeed" column="WindSpeed" type="double"></property>
+	</class>
+</hibernate-mapping>

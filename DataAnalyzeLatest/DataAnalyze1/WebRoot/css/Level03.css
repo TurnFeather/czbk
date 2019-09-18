@@ -1,0 +1,220 @@
+*{ vertical-align:middle;}
+img{ vertical-align:middle;}
+.main{ width:100%; margin-left:3px; float:left; height:auto; margin-top:0px; background-color:#daeef3;}
+.main .r_Top .Bg01{ float:left; background:url(../images/Admin_03.gif) no-repeat; width:15px; height:26px;}
+.main .r_Top{ width:100%; color:#0972ac; background:url(../images/Admin_05.gif) repeat-x; height:27px; line-height:27px;}
+.main .r_Top h2{ font-size:14px; color:#0972ac; font-weight:normal; margin-right:15px; float:left;}
+.main .r_Top h2 a{color:#0972ac; text-decoration:none;}
+
+.main .r_Top h3{ font-size:14px; color:#0972ac; font-weight:normal; margin-right:15px; float:left;}
+.main .r_Top h3 a{color:#0972ac; text-decoration:none;}
+
+
+.main .r_Btm{ width:100%; min-width:980px; float:left; color:#0972ac; font-size:12px;  padding:10px 0px; }
+.main .r_Btm {margin-left:14px; min-width:680px; }
+#btn_comment{ width:50%;}
+.main .r_Btm  td{ height:25px; line-height:25px;}
+
+*.main .r_Btm a.AA{ background:url(../images/Add_AAa.jpg) no-repeat; width:89px; height:24px; display:inline-block; padding-bottom:8px; }
+.main .r_Btm a.AA:hover{ background:url(../images/Add_AA.jpg) no-repeat; width:89px; height:24px;}
+.main .r_Btm a.BB{ background:url(../images/Add_BBb.jpg) no-repeat; width:89px; height:24px; display:inline-block;padding-bottom:8px; 
+ padding-left:5px;}
+.main .r_Btm a.BB:hover{ background:url(../images/Add_BB.jpg) no-repeat; width:89px; height:24px; padding-left:5px;}
+.main .r_Btm a.CC{ background:url(../images/Add_CCc.jpg) no-repeat; width:89px; height:24px; display:inline-block;padding-bottom:8px;}
+.main .r_Btm a.CC:hover{ background:url(../images/Add_CC.jpg) no-repeat; width:89px; height:24px;}
+.main .r_Btm a.DD{ background:url(../images/Add_DDd.jpg) no-repeat; width:89px; height:24px; display:inline-block;padding-bottom:8px;}
+.main .r_Btm a.DD:hover{ background:url(../images/Add_DD.jpg) no-repeat; width:89px; height:24px;}
+
+
+.main .r_Btm a.EE{ background:url(../images/Add_EEe.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.EE:hover{ background:url(../images/Add_EE.jpg) no-repeat; width:69px; height:24px;}
+/*重置按钮*/
+.main .r_Btm a.FF{ background:url(../images/Add_FFf.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.FF:hover{ background:url(../images/Add_FF.jpg) no-repeat; width:69px; height:24px;}
+/*保存*/
+.main .r_Btm a.SC{ background:url(../images/Admin_SCc.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.SC:hover{ background:url(../images/Admin_SC.jpg) no-repeat; width:69px; height:24px;}
+/*上传*/
+
+.main .TB a.FF{ background:url(../images/Add_FFf.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:8px;}
+.main .TB a.FF:hover{ background:url(../images/Add_FF.jpg) no-repeat; width:69px; height:24px;}
+
+.main .TB a.GG{ background:url(../images/Add_GGg.jpg) no-repeat; width:63px; height:20px; line-height:20px;  display:inline-block; vertical-align:middle;}
+.main .TB a.GG:hover{ background:url(../images/Add_GG.jpg) no-repeat; width:63px; height:20px; line-height:20px;vertical-align:middle; }
+/*浏览按钮*/
+
+.main .TB a.PD{ background:url(../images/PDd.jpg) no-repeat; width:63px; height:20px; line-height:20px;  display:inline-block; vertical-align:middle;}
+.main .TB a.PD:hover{ background:url(../images/PD.jpg) no-repeat; width:63px; height:20px; line-height:20px;vertical-align:middle; }
+/*评定*/
+
+.main .TB a.CX{ background:url(../images/Add_CXx.jpg) no-repeat; width:69px; height:24px; line-height:20px;  display:inline-block; vertical-align:middle;}
+.main .TB a.CX:hover{ background:url(../images/Add_CX.jpg) no-repeat; width:69px; height:24px; line-height:20px;vertical-align:middle; }
+
+.main .r_Btm a.CX{ background:url(../images/Add_CXx.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:8px;}
+.main .r_Btm a.CX:hover{ background:url(../images/Add_CX.jpg) no-repeat; width:69px; height:24px;}
+
+.main .TB a.FHH{ background:url(../images/Add_FHh.jpg) no-repeat; width:63px; height:20px; line-height:20px;  display:inline-block; vertical-align:middle;}
+.main .TB a.FHH:hover{ background:url(../images/Add_FH.jpg) no-repeat; width:63px; height:20px; line-height:20px;vertical-align:middle; }
+
+
+
+
+.main .r_Btm a.HH{ background:url(../images/Add_FHH.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.HH:hover{ background:url(../images/Add_FH.jpg) no-repeat; width:69px; height:24px;}
+/* judge返回按钮*/
+.main .r_Btm a.ZZ{ background:url(../images/Add_ZZz.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:89px;
+height:24px;}
+.main .r_Btm a.ZZ:hover{ background:url(../images/Add_ZZ.jpg) no-repeat;width:89px;
+height:24px; }
+/*ZZ 新增项目按钮*/
+.main .r_Btm a.YY{ background:url(../images/Add_YY.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:139px;
+height:24px;}
+.main .r_Btm a.YY:hover{ background:url(../images/Add_YYy.jpg) no-repeat;width:139px;
+height:24px; }
+/*YY 从胜任力模型创建按钮*/
+
+/*
+.main .r_Btm a.XX{ background:url(../images/Add_XX.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:119px;
+height:24px;}
+.main .r_Btm a.XX:hover{ background:url(../images/Add_XXx.jpg) no-repeat;width:119px;
+height:24px; }
+XX 确定报名人数按钮*/
+
+.main .r_Btm a.WW{ background:url(../images/Admin_DDd.gif) no-repeat; display:inline-block;padding-bottom:8px; width:69px;height:24px; margin-left:5px; }
+.main .r_Btm a.WW:hover{ background:url(../images/Admin_DD.gif) no-repeat;width:69px;height:24px; margin-left:5px;}
+/*WW 删除按钮*/
+
+.main .r_Btm a.HC{ background:url(../images/btn_huancun_2.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:69px;height:24px; padding-left:5px;}
+.main .r_Btm a.HC:hover{ background:url(../images/btn_huancun_1.jpg) no-repeat;width:69x;height:24px; padding-left:5px }
+/*HC 缓存按钮*/
+
+.main .r_Btm a.SCHC{ background:url(../images/btn_qchc_2.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:89px;height:24px; padding-left:5px;}
+.main .r_Btm a.SCHC:hover{ background:url(../images/btn_qchc_1.jpg) no-repeat;width:89px;height:24px; padding-left:5px }
+/*SCHC 删除缓存按钮*/
+
+.main .r_Btm a.FSTZX{ background:url(../images/btn_fstzx_2.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:69px;height:24px; padding-left:5px;}
+.main .r_Btm a.FSTZX:hover{ background:url(../images/btn_fstzx_1.jpg) no-repeat;width:69px;height:24px; padding-left:5px }
+/*FSTZX 发送通知按钮*/
+
+.main .r_Btm a.bjkc{ background:url(../images/btn_bjkc_2.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:89px;height:24px; padding-left:5px;}
+.main .r_Btm a.bjkc:hover{ background:url(../images/btn_bjkc_1.jpg) no-repeat;width:89px;height:24px; padding-left:5px }
+/*bjkc 编辑课程按钮*/
+
+
+.main .r_Btm a.bjxy{ background:url(../images/btn_bjxy_2.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:99px;height:24px; padding-left:5px;}
+.main .r_Btm a.bjxy:hover{ background:url(../images/btn_bjxy_1.jpg) no-repeat;width:99px;height:24px; padding-left:5px }
+/*bjxy 编辑学员按钮*/
+
+.main .r_Btm a.VV{ background:url(../images/Admin_EEe.gif) no-repeat; display:inline-block;padding-bottom:8px; width:83px;height:24px; padding-left:5px;}
+.main .r_Btm a.VV:hover{ background:url(../images/Admin_EE.gif) no-repeat;width:83px;height:24px;  padding-left:5px;}
+/*VV 批量删除按钮*/
+
+.TB a.UU{ background:url(../images/Add_WWw.jpg) no-repeat; display:inline-block; width:83px;height:24px; vertical-align:middle; margin:0px;}
+.TB a.UU:hover{ background:url(../images/Add_WW.jpg) no-repeat;width:83px;height:24px; vertical-align:middle; margin:0px;}
+/*UU 单项详细按钮*/
+
+.TB a.TT{ background:url(../images/btn_bianji_XM2.jpg) no-repeat; display:inline-block; width:100px;height:38px; vertical-align:middle; margin:0px;}
+.TB a.TT:hover{ background:url(../images/btn_bianji_XM1.jpg) no-repeat;width:100px;height:38px; vertical-align:middle; margin:0px;}
+/*UU 单项编辑项目按钮*/
+
+.TB a.WW{ background:url(../images/Admin_DDd.gif) no-repeat; display:inline-block; width:120px;height:38px; vertical-align:middle; margin:0px}
+.TB a.WW:hover{ background:url(../images/Admin_DD.gif) no-repeat;width:120px;height:38px; vertical-align:middle; margin:0px }
+/*WW 添加课程按钮*/
+
+.TB a.MM{ background:url(../images/Add_XX.jpg) no-repeat; display:inline-block; width:120px;height:38px; vertical-align:middle; margin:0px;}
+.TB a.MM:hover{ background:url(../images/Add_XXx.jpg) no-repeat;width:120px;height:38px; vertical-align:middle; margin:0px;}
+
+/*MM 确定人员按钮*/
+
+.TB a.VIEW{ background:url(../images/btn_view_2.jpg) no-repeat; display:inline-block;padding-bottom:8px; width:69px;height:24px; margin-left:5px; }
+.TB a.VIEW:hover{ background:url(../images/btn_view_1.jpg) no-repeat;width:69px;height:24px; margin-left:5px;}
+/*WW 删除按钮*/
+
+.main .r_Btm a.II{ background:url(../images/btn_print_1.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:8px;}
+.main .r_Btm a.II:hover{ background:url(../images/btn_print_2.jpg) no-repeat; width:69px; height:24px;}
+
+.r_Btm a.SS{ background:url(../images/Add_JJ.jpg) no-repeat; display:inline-block; width:69px;height:24px; margin-top:0px; padding-bottom:8px; margin-left:5px;}
+.r_Btm a.SS:hover{ background:url(../images/Add_JJj.jpg) no-repeat;width:69px;height:24px; margin-top:0px; margin-left:5px;}
+/*SS 单项审批按钮*/
+
+.r_Btm a.QQ{ background:url(../images/Add_KKk.jpg) no-repeat; display:inline-block; width:69px;height:24px; margin-top:0px; padding-bottom:8px;margin-left:5px;}
+.r_Btm a.QQ:hover{ background:url(../images/Add_KK.jpg) no-repeat;width:69px;height:24px; margin-top:0px;margin-left:5px;}
+/*QQ 单项拒绝按钮*/
+
+.r_Btm a.DC{ background:url(../images/btn_daochu_2.jpg) no-repeat; display:inline-block; width:69px;height:24px; margin-top:0px; padding-bottom:8px; padding-left:5px;}
+.r_Btm a.DC:hover{ background:url(../images/btn_daochu_1.jpg) no-repeat;width:69px;height:24px; margin-top:0px; padding-left:5px;}
+/*DC 导出Excel按钮*/
+
+.r_Btm a.DCWD{ background:url(../images/btn_dcwd_2.jpg) no-repeat; display:inline-block; width:89px;height:24px; margin-top:0px; padding-bottom:8px ;padding-left:5px;}
+.r_Btm a.DCWD:hover{ background:url(../images/btn_dcwd_1.jpg) no-repeat;width:89px;height:24px; margin-top:0px; padding-left:5px;}
+/*DCWD 导出word按钮*/
+
+
+.r_Btm a.GB{ background:url(../images/btn_guanbi_2.jpg) no-repeat; display:inline-block; width:89px;height:24px; margin-top:0px; padding-bottom:8px ;padding-left:5px;}
+.r_Btm a.GB:hover{ background:url(../images/btn_guanbi_1.jpg) no-repeat;width:89px;height:24px; margin-top:0px; padding-left:5px;}
+/*GB 关闭按钮*/
+
+.r_Btm a.FSTZ{ background:url(../images/btn_fstz_2.jpg) no-repeat; display:inline-block; width:99px;height:24px; margin-top:0px; padding-bottom:8px; padding-left:5px;}
+.r_Btm a.FSTZ:hover{ background:url(../images/btn_fstz_1.jpg) no-repeat;width:99px;height:24px; margin-top:0px; padding-left:5px;}
+/*FSTZ 发送成绩通知按钮*/
+
+.r_Btm a.SCCJ{ background:url(../images/btn_sccj_2.jpg) no-repeat; display:inline-block; width:89px;height:24px; margin-top:0px; padding-bottom:8px; padding-left:5px;}
+.r_Btm a.SCCJ:hover{ background:url(../images/btn_sccj_1.jpg) no-repeat;width:89px;height:24px; margin-top:0px; padding-left:5px;}
+/*SCCJ 生成成绩按钮*/
+
+.r_Btm a.DCDA{ background:url(../images/btn_pldcda_2.jpg) no-repeat; display:inline-block; width:99px;height:24px; margin-top:0px; padding-bottom:8px}
+.r_Btm  a.DCDA:hover{ background:url(../images/btn_pldcda_1.jpg) no-repeat;width:99px;height:24px; margin-top:0px;}
+/*DCDA 批量导出答案按钮*/
+
+
+.TB  a.CKBB{ background:url(../images/btn_kanbb_1.jpg) no-repeat; display:inline-block; width:89px;height:24px; margin-top:0px; padding-bottom:8px}
+.TB  a.CKBB:hover{ background:url(../images/btn_kanbb_2.jpg) no-repeat;width:89px;height:24px; margin-top:0px;}
+/*CKBB 查看报表按钮*/
+
+
+.TB  a.CKCJ{ background:url(../images/btn_kscj_1.jpg) no-repeat; display:inline-block; width:119px;height:24px; margin-top:0px; padding-bottom:8px}
+.TB  a.CKCJ:hover{ background:url(../images/btn_kscj_2.jpg) no-repeat;width:119px;height:24px; margin-top:0px;}
+/*CKCJ 查看考生成绩按钮*/
+
+
+.TB  a.CKDJ{ background:url(../images/btn_ckdj_2.jpg) no-repeat; display:inline-block; width:69px;height:24px; margin-top:0px; }
+.TB  a.CKDJ:hover{ background:url(../images/btn_ckdj_1.jpg) no-repeat;width:69px;height:24px; margin-top:0px;}
+/*CKSJ 查看答卷按钮*/
+
+.TB  a.DCDJ{ background:url(../images/btn_dcdj_2.jpg) no-repeat; display:inline-block; width:69px;height:24px; margin-top:0px; }
+.TB  a.DCDJ:hover{ background:url(../images/btn_dcdj_1.jpg) no-repeat;width:69px;height:24px; margin-top:0px;}
+/*DCDJ 导出答卷按钮*/
+
+.TB a.YL{ background:url(../images/btn_yulan_1.jpg) no-repeat; display:inline-block;padding-bottom:2px; width:69px;height:24px;margin-left:5px;}
+.TB a.YL:hover{ background:url(../images//btn_yulan_2.jpg) no-repeat;width:69px;height:24px; margin-left:5px;}
+/*单项预览按钮*/
+
+.TB a.BJ{ background:url(../images/btn_bianji_2.jpg) no-repeat; display:inline-block;padding-bottom:2px; width:69px;height:24px;margin-left:5px;}
+.TB a.BJ:hover{ background:url(../images/btn_bianji_1.jpg) no-repeat;width:69px;height:24px; margin-left:5px;}
+/*单项编辑按钮*/
+
+
+.TB a.XZ{ background:url(../images/btn_xinzeng_2.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.TB a.XZ:hover{ background:url(../images/btn_xinzeng_1.jpg) no-repeat; width:69px; height:24px;}
+/*新增按钮*/
+
+.main .r_Btm a.XZ{ background:url(../images/btn_xinzeng_2.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.XZ:hover{ background:url(../images/btn_xinzeng_1.jpg) no-repeat; width:69px; height:24px;}
+/*新增按钮*/
+.main .r_Btm a.QK{ background:url(../images/btn_clear_2.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.QK:hover{ background:url(../images/btn_clear_1.jpg) no-repeat; width:69px; height:24px;}
+.main .r_Btm a.QX{ background:url(../images/btn_cancle_2.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.QX:hover{ background:url(../images/btn_cancle_1.jpg) no-repeat; width:69px; height:24px;}
+
+.main .r_Btm a.JXXZ{ background:url(../images/jxxz2.jpg) no-repeat; width:69px; height:24px; display:inline-block;padding-bottom:0px;}
+.main .r_Btm a.JXXZ:hover{ background:url(../images/jxxz1.jpg) no-repeat; width:69px; height:24px;}
+
+#out{WIDTH:95%; min-width:680px; float:left;}
+
+.TB{ margin-top:10px;  margin-left:14px;*margin-left:7px; min-width:680px;height:auto; float:left; border-collapse:collapse;}
+.TB th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:normal; font-size:12px; text-align:left ; padding-left:8px;}
+.TB td{ text-align:left; padding-left:15px;background:#FFF;height:25px; color:#0972ac;font-size:12px; font-weight:normal; }
+.TB .shur{width:146px; height:16px;line-height:16px; } 
+.TB #Spon{ width:356px; height:16px; line-height:16px;}
+.TB #WarPic{width:316px; height:16px; line-height:16px; vertical-align:middle;}
+.TB .ListClss{  width:146px; height:20px; line-height:20px;}

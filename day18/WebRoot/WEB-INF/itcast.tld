@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+    <tlib-version>1.0</tlib-version>
+    <short-name>itcast</short-name>
+    <uri>http://www.itcast.cn/jsp/jstl</uri>
+    <tag><!-- 描述标签 -->
+		<description>Show Remote Address</description>
+        <name>showRemoteIp</name>
+		<tag-class>cn.itcast.tag.ShowRemoteIpTag</tag-class>
+		<body-content>empty</body-content><!-- 指示标签的主体内容 -->
+    </tag>
+    <tag><!-- 描述标签 -->
+		<description>Hide Body</description>
+        <name>demo2</name>
+		<tag-class>cn.itcast.tag.Demo2Tag</tag-class>
+		<body-content>JSP</body-content><!-- 指示标签的主体内容 -->
+    </tag>
+    <tag><!-- 描述标签 -->
+		<description>Hiding Tag behind</description> 
+        <name>demo3</name>
+		<tag-class>cn.itcast.tag.Demo3Tag</tag-class>
+		<body-content>empty</body-content><!-- 指示标签的主体内容 -->
+    </tag>
+    <tag><!-- 描述标签 -->
+		<description>Continue the Body</description>
+        <name>demo4</name>
+		<tag-class>cn.itcast.tag.Demo4Tag</tag-class>
+		<body-content>JSP</body-content><!-- 指示标签的主体内容 -->
+		<attribute>
+			<name>count</name>			<!-- 属性名 -->
+			<required>true</required>	<!-- 标明该属性是否是必须的 -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+    </tag>
+    <tag><!-- 描述标签 -->
+		<description>Upper the case</description> 
+        <name>demo5</name>
+		<tag-class>cn.itcast.tag.Demo5Tag</tag-class>
+		<body-content>JSP</body-content><!-- 指示标签的主体内容 -->
+    </tag>
+</taglib>

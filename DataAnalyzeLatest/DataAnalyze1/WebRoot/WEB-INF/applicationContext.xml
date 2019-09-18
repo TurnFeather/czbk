@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="GBK"?>
+	<!-- 指定Spring配置文件的Schema信息 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+	http://www.springframework.org/schema/aop 
+	http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/dataanalyze" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+	</bean>
+	<bean id="mySessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="mappingLocations">
+			<value>classpath*:cn/*/*/*/*/vo/*Model.hbm.xml</value>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!--  <bean id="dataAnalyze" class="cn.edu.ncist.dataAnalyze.realtime.web.DataAnalyzeAction">
+		<property name="sessionFactory">
+			<ref local="mySessionFactory" />
+		</property>
+	</bean>-->
+	
+	<bean id="serRuleEbi" class="cn.edu.ncist.dataAnalyze.realtime.bussiness.ebo.SerRuleEbo">
+		<property name="serRuleDao" ref="serRuleDao"></property>
+	</bean>
+	<bean id="serRuleDao"
+		class="cn.edu.ncist.dataAnalyze.realtime.dao.impl.serRuleDaoImpl">
+		<property name="sessionFactory">
+			<ref local="mySessionFactory" />
+		</property>
+	</bean>
+	
+	<bean id="serEconEbi" class="cn.edu.ncist.dataAnalyze.realtime.bussiness.ebo.SerEconEbo">
+		<property name="serEconDao" ref="serEconDao"></property>
+		
+	</bean>
+	<bean id="serEconDao"
+		class="cn.edu.ncist.dataAnalyze.realtime.dao.impl.serEconDaoImpl">
+		<property name="sessionFactory">
+			<ref local="mySessionFactory" />
+		</property>
+	</bean>
+	
+	<bean id="serAccidentEbi" class="cn.edu.ncist.dataAnalyze.realtime.bussiness.ebo.SerAccidentEbo">
+		<property name="serAccidentDao" ref="serAccidentDao"></property>
+	</bean>
+	<bean id="serAccidentDao"
+		class="cn.edu.ncist.dataAnalyze.realtime.dao.impl.serAccidentDaoImpl">
+		<property name="sessionFactory">
+			<ref local="mySessionFactory" />
+		</property>
+	</bean>
+	<bean id="serWeatherEbi" class="cn.edu.ncist.dataAnalyze.realtime.bussiness.ebo.SerWeatherEbo">
+		<property name="serWeatherDao" ref="serWeatherDao"></property>
+	</bean>
+	
+	<bean id="serWeatherDao" class="cn.edu.ncist.dataAnalyze.realtime.dao.impl.serWeatherDaoImpl">
+		<property name="sessionFactory">
+			<ref local="mySessionFactory" />
+		</property>
+	</bean>
+	
+	<bean id="serEventCountEbi" class="cn.edu.ncist.dataAnalyze.realtime.bussiness.ebo.SerEventCountEbo">
+		<property name="serEventCountDao" ref="serEventCountDao"></property>
+	</bean>
+	
+	<bean id="serEventCountDao" class="cn.edu.ncist.dataAnalyze.realtime.dao.impl.serEventCountDaoImpl">
+		<property name="sessionFactory">
+			<ref local="mySessionFactory" />
+		</property>
+	</bean>
+	
+	<bean id="serAllAccidentEbi" class="cn.edu.ncist.dataAnalyze.realtime.bussiness.ebo.SerAllAccidentEbo">
+		<property name="serAllAccidentDao" ref="serAllAccidentDao"></property>
+	</bean>
+	<bean id="serAllAccidentDao"
+		class="cn.edu.ncist.dataAnalyze.realtime.dao.impl.serAllAccidentDaoImpl">
+		<property name="sessionFactory">
+			<ref local="mySessionFactory" />
+		</property>
+	</bean>
+	
+	
+	
+
+</beans>
+	
+	

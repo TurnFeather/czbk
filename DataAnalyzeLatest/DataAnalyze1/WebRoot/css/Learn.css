@@ -1,0 +1,118 @@
+*{ vertical-align:middle;}
+img{ vertical-align:middle;}
+.r_title{ width:100%; color:#0972ac; background:url(../images/r_title_bg2.jpg) repeat-x; height:27px; line-height:27px;}
+.r_title h3{ background:url(../images/r_title_bg.jpg) no-repeat; height:27px; text-align:left; padding-left:15px; float:left; font-size:12px; font-weight:normal; display:block;}
+.r_title h3 span{margin-right:5px; margin-left:5px; float:left; display:inline;}
+.r_title h3 span a{ color:#0972ac;}
+.r_search{min-width:680px; width:100%; color:#0972ac;  height:27px; line-height:27px; border:0px; margin-top:10px;}
+.r_search h3{ background:url(../images/search_bg.jpg) no-repeat; width:85px; height:25px; text-align:center; margin:0px 15px 0 15px; float:left;}
+
+/*Course_Show*/
+.mainshow1{ width:800px; margin-left:3px; float:left;  margin-top:5px; background-color:#daeef3; border-bottom:solid 1px #daeef3; border-right:solid 1px #daeef3;}
+
+.mainshow{ width:1300px; margin-left:3px; float:left;  margin-top:5px; background-color:#daeef3; border-bottom:solid 1px #daeef3; border-right:solid 1px #daeef3;}
+.r_Btm{ width:100%; min-width:980px; float:left;  padding-bottom:15px; *padding-bottom:0px;  border-left:solid 1px #d3d3d3; }
+.r_Btm h3{ color:#0972ac; font-size:14px; margin:15px 0 0 14px;}
+.r_Btm span{ font-weight:normal;}
+.TB{ margin-left:14px;*margin-left:7px; margin-top:10px; min-width:680px;height:auto; float:left; border-collapse:collapse;}
+.TB th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:center;}
+#thnone{ text-align:left; padding-left:15px;}
+.TB td{ background:#FFF; border:#efefef 1px solid;height:25px;color:#0972ac;; font-size:12px; text-align:center;}
+#tdnone{ text-align:left; padding-left:15px; border:none; border-bottom:#efefef 1px solid;}
+.TB tr .Learning a.AA{ background:url(../images/anniu02.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.TB tr .Learning a.AA:hover{ background:url(../images/anniu01.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+
+.Flip{ color:#107ab6; float:left; min-width:680px; _width:95%; margin-top:15px; font-size:14px; margin-bottom:10px;_margin-bottom:0px;}
+.Flip a{ color:#107ab6; line-height:24px; }
+.Flip a:hover{ color:#107ab6; text-decoration:underline;}
+.Flip .ll{ float:left; display:block; margin-left:20px; border:none;}
+.Flip .RR{color:#107ab4; float:left; margin-left:30px; }
+
+.tech{ margin-bottom:20px;min-width:500px; margin-left:14px;*margin-left:7px; margin-top:10px;height:155px;  border-collapse:collapse;border:#efefef 1px solid;}
+.tech td{ background:#FFF; border:none; color:#0972ac; font-weight:bold; font-size:14px; text-align:left; height:38px; line-height:38px;}
+.tech .Btmline{ border-bottom:#ededed 1px dashed;}
+.tech tr td span{ color:#0972ac; font-weight:normal; font-size:14px; float:none; display:inline;}
+.tech .lineP{ padding-left:10px; background:#f5fbfc; height:30px;}
+.tech .TextLT{ color:#a6a6a6; font-size:12px; font-weight:normal; vertical-align:text-top; padding-top:8px; padding-right:8px; line-height:20px;}
+
+.tech .Heilne{ color:#4f4f4f; text-align:center; height:25px; line-height:25px; }
+.tech tr td img{ margin:5px; padding:5px; border:#efefef 1px solid;}
+
+/*Course_List*/
+
+.mainlist{ width:1220px; margin-left:3px; float:left;  margin-top:5px; background-color:#daeef3; border-bottom:solid 1px #d3d3d3; border-right:solid 1px #d3d3d3;}
+.TBList{ margin-left:14px;*margin-left:7px; margin-top:10px; min-width:980px;height:auto; float:left; border-collapse:collapse;}
+.TBList th{ background:#daeef3; height:25px; color:#0972ac; border:none; border-top:#8db2e3 1px solid; font-weight:bold; font-size:12px; text-align:center;}
+.TBList td{ background:#FFF; border:#efefef 1px solid;height:25px;color:#0972ac; font-size:12px; text-align:center;}
+.TBList tr .Learning{text-align:center;}
+.TBList tr .Learning a.AA{ background:url(../images/anniu02.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.TBList tr .Learning a.AA:hover{ background:url(../images/anniu01.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+
+
+
+
+
+
+/*Course_Learn*/
+.video_main{ width:100%;float:left;margin:0px;background-color:#daeef3; border:0px;}
+.TBLearn_top{width:100%; height:31px;}
+.top_left{width:30px; height:31px;}
+.top_right{ width:27px; height:31px;}
+.TBLearn_top .video_top{background:url(../images/video_02.jpg) repeat-x; width:100%; height:31px;color:#0972ac; *margin-top:5px;}
+.TBLearn_top .video_top .top1{height:31px; float:left; display:block; line-height:31px;}
+.TBLearn_top .video_top .top2{height:24px; float:left; display:block; margin-top:6px;}
+.TBLearn_top .video_top span{color:#0972ac; font-size:12px; padding:3px 10px 0 10px;float:left;}
+.TBLearn_top .video_top span a{color:#0972ac;}
+.TBLearn_top .video_top span a:hover{color:#00a5e5; text-decoration:underline;}
+.TBLearn_top .video_top .end{ background:url(../images/anniu04.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:0px; padding:0px; cursor:pointer; display:block; float:left;}
+.TBLearn{width:100%; height:500px; min-height:500px;}
+.TBLearn .video_left{background:url(../images/video_04.jpg) repeat-y left top; width:30px;}
+.TBLearn .video_right{background:url(../images/video_05.jpg) repeat-y left top; width:27px;}
+
+/*Homework*/
+.mainlist2{ width:1200px; margin-left:3px; float:left;  margin-top:5px; background-color:#daeef3; border-bottom:solid 1px #d3d3d3; border-right:solid 1px #d3d3d3;}
+
+.Practice{text-align:center;}
+.Practice a.Show{ background:url(../images/anniu07.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.Practice a.Show:hover{ background:url(../images/anniu08.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+.Practice a.Submit{ background:url(../images/anniu09.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.Practice a.Submit:hover{ background:url(../images/anniu10.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+.Practice a.Exercise{ background:url(../images/anniu13.jpg) no-repeat top ;height:24px; width:59px; display:inline-block; }
+.Practice a.Exercise:hover{ background:url(../images/anniu14.jpg) no-repeat top; height:24px; width:59px; display:inline-block; }
+
+/*HomeworkSubmit*/
+.p_area{ width:100%; height:150px;border:0px; margin-top:10px;}
+.p_area h3{ width:95%; height:25px;color:#0972ac; text-align:left; margin:0px 15px 0 15px; float:left; border-bottom:#8db2e3 1px solid;}
+.note{width:90%; margin-left:20px; height:100px; margin-top:10px;}
+.note1{width:90%; margin-left:0px; height:80px; margin-top:10px;}
+.yuanyin{width:90%; margin-left:20px; height:100px; margin-top:0px;}
+.p_submit{width:90%; text-align:center; margin:10px 0 30px 0;}
+.p_submit .save{ background:url(../images/anniu05.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0 50px 0 0; vertical-align:middle; cursor:pointer;}
+.p_submit .submit{ background:url(../images/anniu06.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:middle; cursor:pointer;}
+
+/*ElectiveList*/
+
+
+.Elective{text-align:center;}
+.anniu_sq{ background:url(../images/anniu11.jpg) no-repeat; width:59px; height:24px; line-height:24px; margin-top:0px; vertical-align:middle; border:none; cursor:pointer;}
+.anniu_sq1{ background:url(../images/anniu111.jpg) no-repeat; width:59px; height:24px; line-height:24px; margin-top:0px; vertical-align:middle; border:none; cursor:pointer;}
+
+/*DataDownload*/
+.d_title{ width:100%; height:25px;border:0px; margin-top:10px;}
+.d_title h3{ width:65%; height:25px;color:#0972ac; text-align:left; margin:0px 15px 0 15px; float:left; border-bottom:#8db2e3 1px solid;}
+.tech .DataIntroduction{ color:#a6a6a6; min-height:200px; font-size:12px; font-weight:normal; text-indent:2em; vertical-align:text-top; padding:8px 8px 0 8px; line-height:20px;}
+.tech .Btmline .download{background:url(../images/download.jpg) no-repeat;  line-height:18px; margin-top:0px; vertical-align:middle; border:none;width:69px; height:24px; display:inline-block; padding-bottom:8px;}
+
+
+/*elective_list_condidate*/
+.t_area{ width:100%; height:30px;border:0px; margin-top:10px;margin-left:10px;margin-bottom:0px; color:#4e4e4e;display:block;}
+.t_submit{width:40%; text-align:center; margin:10px  150px ;  }
+.t_submit .cancle{ background:url(../images/anniu15.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0 50px 0 0; vertical-align:center; cursor:pointer;}
+.t_submit .submit{ background:url(../images/anniu06.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:center; cursor:pointer;}
+.t_note{width:40%; margin-left:0px; height:40px; margin-top:0px;}
+.t_note1{width:400px; margin-left:0px; height:100px; margin-top:0px;}
+
+
+.newpost{ background:url(../images/anniu27.jpg) no-repeat; width:100px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:center; cursor:pointer;}
+.back{ background:url(../images/back.jpg) no-repeat; width:69px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:center; cursor:pointer;}
+.backborder{ background:url(../images/anniu17.jpg) no-repeat; width:59px; height:24px; line-height:24px; border:none; margin:0px; vertical-align:center; cursor:pointer;}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hibernate.test.orphan">
+	<class name="cn.edu.ncist.dataAnalyze.realtime.vo.CityAcciNumModel"  table="city_acc_num">
+		<id name="acdCity" column="acdCity" type="string">	
+		</id>
+	<property name="acci_num" column="sgsl" type="int"></property>
+	<property name="acdProvince" column="acdProvince" type="string"></property>
+	</class>
+</hibernate-mapping>
